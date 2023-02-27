@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://www.runescape.com/img/rsp777/bg2.jpg");
+    background-repeat: repeat-y;
+    background-size: contain;
+    min-height: 100vh;
+}
+
+
+nav,
+#menu-checkbox{
+    display: none;
+}
+
+nav a{
+    display: block;
+    color: yellow;
+    padding: 10px;
+    padding-right: 10px;
+}
+
+nav{
+    position: absolute;
+    background-color:rgb(44, 44, 44);
+    top: 20px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 60;
+    margin-left: 100px;
+}
+
+#menu-checkbox:checked ~ nav{
+    display: block;
+}
+.iconsize{
+    font-size: xx-large;
+    font-weight: 700;
+    cursor: pointer;
+    padding-top: 30px;
+    padding-left: 70px;
+    text-decoration: none;
+    color:white;
+}
+
+.thank-you {
+    color: white;
+    font-size: 2rem;
+    width: 300px;
+}
+
+.hide {
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    display: none;
+}
+
+
+.form-placement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#form {
+ flex-direction: column;
+ margin-top: 100px;
+ display: flex;
+ gap: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.color{
+    color: yellow;
+    margin-top: 10px;
+}
+
+button{
+    width: 100px;
+    background-color: transparent ;
+    font-size: larger;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    position: absolute;
+}
+
+
+textarea {
+    resize: none;
+}
+

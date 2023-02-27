@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/form.js" type="module" defer></script>
+    <link rel="stylesheet" href="contact.css" />
+    <script
+      src="https://kit.fontawesome.com/2d14a8d77d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <input type="checkbox" id="menu-checkbox" />
+  <nav>
+    <ul>
+      <a href="index.html">Home</a>
+      <a href="Contact.html">Contact</a>
+    </ul>
+  </nav>
+  <div>
+    <div>
+      <label for="menu-checkbox"
+        ><i class="fa-solid fa-bars iconsize"></i
+      ></label>
+    </div>
+  </div>
+
+  <body class="body-detail">
+    <div class="form-placement">
+      <form id="form">
+        <div class="color">
+          <label for="firstName">First Name</label>
+          <input type="text" placeholder="First Name" id="firstName" />
+          <div class="name-error error hidden">Please enter a valid name</div>
+        </div>
+        <div class="color">
+          <label for="firstName">Adress</label>
+          <input type="text" placeholder="Address" id="address" />
+          <div class="address-error error hidden">
+            Please enter a valid address
+          </div>
+        </div>
+        <div class="color">
+          <label for="firstName">Email</label>
+          <input type="text" placeholder="Email" id="email" />
+          <div class="email-error error hidden">Please enter a valid email</div>
+        </div>
+        <div>
+          <label class="color" for="subject">Message</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <button class="color">Submit</button>
+        </div>
+        <div class="thank-you hide">
+          <h4>Thank you, we will get back to you shortly</h4>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
